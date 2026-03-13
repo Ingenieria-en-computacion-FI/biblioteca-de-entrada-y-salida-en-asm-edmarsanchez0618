@@ -7,10 +7,6 @@
 ; Salida: La cadena queda guardada en el buffer y terminada en cero.
 ; ==============================================================================
 
-
-
-
-
 SECTION .text
 global scan_string
 
