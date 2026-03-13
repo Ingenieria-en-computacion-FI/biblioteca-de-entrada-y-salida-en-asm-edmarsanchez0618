@@ -25,7 +25,7 @@ print_char:
 
     ; Configuramos la llamada al sistema sys_write
     mov eax, 4            ; Numero de syscall para sys_write
-    mov ebx, 1            
+    mov ebx, 1            ; File descriptor 1 (stdout)
     mov ecx, char_buffer   ; Puntero a la variable global que contiene el caracter
     mov edx, 1            ; Longitud a imprimir 1 byte
 
