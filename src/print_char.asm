@@ -1,3 +1,9 @@
+; ==============================================================================
+; Función: print_char
+; Descripción: Imprime un solo carácter en la salida estándar.
+; Entrada: AL = carácter a imprimir.
+; ==============================================================================
+
 SECTION .bss
 char_buffer resb 1 ; Reserva 1 byte para el caracter
 
