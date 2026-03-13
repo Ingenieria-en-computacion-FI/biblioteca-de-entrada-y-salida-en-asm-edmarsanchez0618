@@ -4,14 +4,8 @@ char_buffer resb 1 ; Reserva 1 byte para el caracter
 SECTION .text
 global print_char
 
-; ---------------------------------
-; print_char
-; Entrada:
-;   AL = caracter a imprimir
-; ---------------------------------
-
 print_char:
-
+    ; Prologo de funcion
     push ebp
     mov ebp, esp
 
@@ -37,6 +31,7 @@ print_char:
     pop ebx
     pop eax
 
+    ; Epilogo de funcion
     mov esp, ebp
     pop ebp
     ret
