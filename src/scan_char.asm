@@ -3,7 +3,6 @@
 ; Descripción: Lee un carácter desde la entrada estándar y lo retorna en AL.
 ; ==========================================================================
 
-
 SECTION .bss
 char_buffer resb 1
 
